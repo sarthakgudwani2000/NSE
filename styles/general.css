@@ -1,0 +1,248 @@
+/* 
+--- 01 Typography System
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+--Font Weights
+Defalut: 500
+semi-bold :600
+Bold: 700
+
+--line height
+Default: 1
+small: 1.05
+medium: 1.2
+paragraph default: 1.6
+
+--letter spacing
+-0.5px
+0.75px
+
+--02 colors
+primary: #e67e22
+-Tints: 
+#f6f6f6fdf2e9
+#fae5d3
+-shades:
+-Accents:
+-Greys
+#6f6f6f (lightest grey allowed on #fae5d3)
+#555
+#333
+---05 SHADOWS
+
+
+--06 BORDER-RADIUS
+small:9px
+medium:11px
+
+---07 WHITESPACE
+
+
+--SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+ */
+
+/* @import url('http://fonts.cdnfonts.com/css/circular-std'); */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-background-color: #eaeaea;
+  --btn-color:#9fe742bd;
+  --primary-heading-color: #0c4b65;
+  --secondary-heading-color: #3489c2c6;
+  --primary-font: 'Open Sans', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: var(--primary-font);
+
+  line-height: 1;
+  font-weight: 500;
+  color:black;
+  overflow-x: hidden;
+}
+
+/* ******************************* */
+/* General Reusable components */
+/* ******************************* */
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.grid-center-v {
+  align-items: center;
+}
+
+/* fading animation */
+.section {
+  transition: transform 1000ms ease, opacity 1000ms ease;
+}
+
+.section--hidden {
+  opacity: 0;
+  transform: translateY(12rem);
+}
+
+/* headings */
+.heading-primary,
+.heading-secondary,
+.heading-tertiory {
+  color: #333;
+  letter-spacing: -0.5px;
+  
+}
+
+.heading-primary {
+  font-family: var(--primary-font);
+  font-size: 5.2rem;
+  line-height: 1.05;
+  margin-bottom: 2rem;
+  font-weight: 800;
+  margin-top: 1.5em;
+
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  color: var(--primary-heading-color);
+  margin-bottom: 4rem;
+}
+
+.heading-tertiory {
+  color: var(--primary-heading-color);
+  font-size: 4rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}
+
+.subheading {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #f87620;
+  color: #e03131;
+  text-transform: uppercase;
+  margin-bottom: 3.2rem;
+  letter-spacing: 0.75px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+/* btn  */
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  font-size: 2.2rem;
+  padding: 0.75em 1.6em;
+  cursor: pointer;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 8px;
+  border: none;
+  transition: background-color 250ms;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  background-color: var(--btn-color);
+  color: #fff;
+}
+
+.btn--full:hover,
+.btn--full:active {
+  background-color: #a1ea19a9;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: #fff;
+  color: #555;
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: var(--primary-background-color);
+  box-shadow: inset 0 0 0 3px #fff;
+}
+
+.btn--outline:active {
+  box-shadow: inset 0 0 0 3px #fff;
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.btn-form {
+  background-color: #f14141;
+  color: var(--primary-background-color);
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn-form:hover {
+  background-color: #d93b92df;
+}
+
+/* .lazy-img {
+  filter: blur(3px);
+} */
+
+/* helpers */
+.margin-right-sm {
+  margin-right: 1.6rem !important;
+}
+
+.margin-bottom-hc {
+  margin-bottom: 4.8rem !important;
+}
+
+.section-roadmap .section-cta{
+  background-color: #F7F6F3 !important;
+}
