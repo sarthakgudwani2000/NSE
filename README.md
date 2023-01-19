@@ -1,3 +1,3 @@
-# Education Day Website
+# NSE Website
 
 ### Created using blood and sweat of juniors...
