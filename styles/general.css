@@ -47,6 +47,7 @@ medium:11px
 
 /* @import url('http://fonts.cdnfonts.com/css/circular-std'); */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@300;500&display=swap&effect=shadow-multiple|anaglyph');
 
 * {
   margin: 0;
@@ -56,7 +57,7 @@ medium:11px
 
 :root {
   --primary-background-color: black;
-  --btn-color:#f39c12  ;
+  --btn-color:rgba(204, 199, 199, 0.966) ;
   --primary-heading-color: #0c4b65;
   --secondary-heading-color: #3489c2c6;
   --primary-font: 'Open Sans', sans-serif;
@@ -70,7 +71,7 @@ html {
 
 body {
   font-family: var(--primary-font);
-
+  font-family: 'Poppins', sans-serif;
   line-height: 1;
   font-weight: 500;
   color:black;
@@ -199,7 +200,9 @@ body {
 
 .btn--full:hover,
 .btn--full:active {
-  background-color: #a1ea19a9;
+  /* background-color: #a1ea19a9; */
+  background-color:#b08be0;
+  
 }
 
 .btn--outline:link,
