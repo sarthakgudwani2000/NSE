@@ -55,8 +55,8 @@ medium:11px
 }
 
 :root {
-  --primary-background-color: #eaeaea;
-  --btn-color:#9fe742bd;
+  --primary-background-color: black;
+  --btn-color:#f39c12  ;
   --primary-heading-color: #0c4b65;
   --secondary-heading-color: #3489c2c6;
   --primary-font: 'Open Sans', sans-serif;
