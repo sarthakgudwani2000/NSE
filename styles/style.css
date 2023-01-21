@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Spicy+Rice&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@300;500&display=swap&effect=shadow-multiple|anaglyph|fire-animation');
 /*  #ffe9db/
 /* #fff4ed  
 #efcf4f*/
@@ -18,7 +19,7 @@
   background-color: var(--primary-background-color);
   background: radial-gradient(circle at 8% 20%,
       rgba(213, 218, 218, 0) 0%,
-      #f39c12 100%);  
+      white 100%);  
   position: fixed;
   z-index: 10;
   width: 100%;
@@ -39,6 +40,7 @@
   font-weight: 600;
   letter-spacing: 0.14rem;
   font-family: 'Spicy Rice', cursive;
+  
   text-decoration: none;
   color: #333;
 }
@@ -81,7 +83,8 @@
 
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
-  background-color: #24282c;
+  /* background-color: #24282c; */
+  color: white;
 }
 
 .btn-mobile-nav {
@@ -140,11 +143,7 @@
   background-color: var(--primary-background-color); 
    /* background: url(https://images.unsplash.com/photo-1506513083865-434a8a207e11?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);  */
    /* background: url(image\image.png); */
-  
-   background: url(https://images.pexels.com/photos/159740/library-la-trobe-study-students-159740.jpeg);
-  /* background-image:url("https://www.pexels.com/photo/people-sitting-inside-well-lit-room-159740/"); */
-  /* background:url(https://i.ibb.co/j3jJySw/IMG-20221027-180027.jpg); */
-  /* background: url(https://images.pexels.com/photos/159740/library-la-trobe-study-students-159740.jpeg?cs=srgb&dl=pexels-pixabay-159740.jpg&fm=jpg); */
+  background: url(https://thumbs.gfycat.com/ScrawnyCapitalGallinule-size_restricted.gif);
   background-size:cover;
   background-repeat: no-repeat;
   background-position:center;
@@ -203,6 +202,7 @@
 }
 .register-btn{
   margin-top: 30px;
+  color: black;
 }
 /* .svg-diamond {
   height: 5rem;
@@ -1484,7 +1484,7 @@ footer h3 i {
 
 .team{
   font-size: 3.5rem;
-  color:#0c4b65 ;
+   color:#0c4b65 ;
   font-weight: 720;
   /* margin: 2rem; */
 }
