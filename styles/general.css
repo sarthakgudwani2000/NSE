@@ -58,7 +58,7 @@ medium:11px
 :root {
   --primary-background-color: black;
   --btn-color:rgba(204, 199, 199, 0.966) ;
-  --primary-heading-color: #0c4b65;
+  --primary-heading-color: white;
   --secondary-heading-color: #3489c2c6;
   --primary-font: 'Open Sans', sans-serif;
 }
