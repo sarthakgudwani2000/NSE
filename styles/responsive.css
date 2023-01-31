@@ -353,8 +353,7 @@
     left: 10%;
   }
 
-  .heading-primary{
-  
+  .heading-primary{  
     font-size: 5rem;
     width: 100%;
     text-align: center;
@@ -362,8 +361,8 @@
     padding-top: 60px;
     padding-bottom: 0px;
     padding-left: 0px;
-    padding-right: 27px;
-    text-shadow:16px 16px 10px black;
+    /* padding-right: 27px; */
+    /* text-shadow:16px 16px 10px black; */
   }
 
   .heading-secondary {
@@ -372,10 +371,7 @@
 /* timer */
 .countdown-container {
   display: flex;
-  width: 100%;
-  max-width: 70%;
-  justify-content: space-between;
-  
+  justify-content: space-between;  
 }
 
 .days-container,
@@ -416,8 +412,7 @@
 @media (max-width: 800px) {
   
   .countdown-container {
-    max-width: 90%;
-    padding-left: 5px;
+    /* padding-left: 5px; */
   }
   
   .days-container,
@@ -425,8 +420,8 @@
   .minutes-container, 
   .seconds-container {
     font-size: 0.8em;
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
   }
 }
 

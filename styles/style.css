@@ -200,10 +200,11 @@
 .hero-text-box .date{
   color:white;
 }
-.register-btn{
+.register-btn {
   margin-top: 30px;
   color: black;
 }
+
 /* .svg-diamond {
   height: 5rem;
   position: absolute;
@@ -359,10 +360,9 @@
   font-size: 4rem;
   font-weight: 720;
   color:white;
-
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
-
-
 
 .roadmap-stepheading {
   font-size: 3rem;
@@ -1158,14 +1158,8 @@
 /* timer */
 .countdown-container {
   display: flex;
-  width: 100%;
-  max-width: 100%;
   justify-content: space-between;
-  gap:0.5rem;
-  padding: 1rem;
-  /* padding-right: 10px; */
-
-  
+  /* padding-right: 10px; */  
 }
 
 .days-container,
@@ -1303,17 +1297,17 @@ td,th{
 .img_box{
   width:300px;
   height: 300px;
-  position: relative;
-  margin: 0 1rem;
+  /* position: relative; */
+  margin: 0 auto;
 }
 
 .img_box img{
   width: 100%;
-    display: block;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    margin-left: 1.9rem;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  /* margin-left: 1.9rem; */
 
 }
 
